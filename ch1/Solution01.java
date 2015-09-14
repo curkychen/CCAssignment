@@ -21,7 +21,19 @@ public class Solution01 {
 	
 	public static void main(String [] args) {
 		String a = "zheefng";
+		String b = "zheng";
+
+		// first test: zheefng
+		System.out.println(a);
 		if (compareUnique(a)) {
+			System.out.println("It's a Unique");
+		}
+		else
+			System.out.println("It's NOT a unique");
+
+		// second test: zheng
+		System.out.println(b);
+		if (compareUnique(b)) {
 			System.out.println("It's a Unique");
 		}
 		else
