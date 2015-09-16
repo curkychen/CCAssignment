@@ -1,4 +1,6 @@
-
+/**
+ *  use double pointer, compare node by node. the time is (n^2), 
+ */
 public class Solution01 {
 	// the structure of list node
 	public static class linkedNode {

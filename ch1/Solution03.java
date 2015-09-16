@@ -1,4 +1,7 @@
-
+/**
+ *  count how " " it has. And then just compute how big array we need. 
+ *  travel the old string, one we met the space, just put the "%20" into it
+ */
 
 public class Solution03 {
 	public static char[] replacespace(char[] s, int n) {

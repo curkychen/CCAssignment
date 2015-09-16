@@ -1,4 +1,8 @@
-
+/**
+ *  travel the string, use a count to count how many same character we met, if the 
+ *  next character is different, print the count and the character, recount the next
+ *  character.
+ */
 public class Solution06 {
 	
 	public static String stringcompress(String s) {

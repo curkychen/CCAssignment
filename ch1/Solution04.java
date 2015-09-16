@@ -2,7 +2,12 @@
 
 import java.util.HashMap;
 import java.util.Map.Entry;
-
+/**
+ * first, replace all space, because we have to ignore all space string.
+ * and then, according to the feature, if the string is a palin permutation, it would 
+ * only has one character, its number is odd. so, if exist more than one character
+ * satisfy the condition, it is not a palin permutation  
+ */
 public class Solution04 {
 	public static boolean checkpalinpermutation(String input) {
 		input = input.toLowerCase();

@@ -1,4 +1,8 @@
-
+/**
+ *  first, I use the M * N boolean matrix to mark which it the 0 element.
+ *  then, according to the boolean matrix to null the matrix, deal with the row first
+ *  and then deal with the column
+ */
 
 public class Solution08 {
 

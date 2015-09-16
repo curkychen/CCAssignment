@@ -1,5 +1,4 @@
 
-
 /**
 * In this problem, we would consider divide the problem into three parts,
 * if the length of two strings is same, if the length of string 1 is more than string 2,

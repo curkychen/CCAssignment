@@ -1,4 +1,11 @@
-
+/**
+ * create two pointer, one is slow, one is fast. travel the original list, 
+ * fast pointer move two steps, slow pointer move one steps. put the value, 
+ *  which the slow pointer point to, into a stack
+ * when fast pointer at the end, the slow point would point to the middle node.
+ * and then, slow point move one step continue, compare the value of stack and the 
+ * value the slow pointer point to
+ */
 import java.util.Stack;
 
 public class Solution06 {

@@ -1,4 +1,11 @@
-
+/**
+ * create two pointer, travel the two list. if their tails are different,
+ * return false.
+ * else, compute the how many nodes that the longer list more than shorter list.
+ * set two pointer at the start of two list
+ * make the longer pointer advance by different length
+ * the two pointer travel their own list together until they meet.
+ */
 public class Solution07 {
 	
 	public linkedNode findintersection(linkedNode list1, linkedNode list2) {

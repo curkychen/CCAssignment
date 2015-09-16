@@ -1,4 +1,7 @@
-
+/**
+ * My solution is sample, just create a new N * N matrix to store the new matrix.
+ * just move the column of matrix to the top
+ */
 public class Solution07 {
 
 	public static int[][] rotatematrix(int[][] matrix) {

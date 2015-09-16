@@ -1,4 +1,7 @@
-
+/**
+ * do the addition like what we add two sum at black board.
+ * compute it from the lowest bit, just care the carry bit
+ */
 public class Solution05 {
 	public static class linkedNode {
 		public int val;

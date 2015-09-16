@@ -1,4 +1,7 @@
-
+/**
+ *  just make the value of node equal to value of next node, make this node point to 
+ *  next node of next node.
+ */
 
 public class Solution03 {
 

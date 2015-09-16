@@ -1,4 +1,8 @@
-
+/**
+ *  create two new list, travel the original list, if the value less than k,
+ *  put it into the first list, else, put it into the second list.
+ *  finally, link the two list
+ */
 public class Solution04 {
 	public static class linkedNode {
 		public int val;

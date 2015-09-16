@@ -1,4 +1,6 @@
-
+/**
+ *  use the pointer, move forward according to the kth, and then return the pointer
+ */
 
 public class Solution02 {
 	// linkedlist class

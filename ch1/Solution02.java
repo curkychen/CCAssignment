@@ -1,5 +1,7 @@
 import java.util.Arrays;
-
+/**
+ *  sort this two string, compare them character by character.
+ */
 public class Solution02 {
 	public static boolean checkpermutation(String a, String b) {
 		boolean result = true;
