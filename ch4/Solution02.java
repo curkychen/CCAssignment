@@ -1,7 +1,7 @@
 
 /** 
  * 
- * Question - Animal Shelter
+ * Question - Minimal Tree
  * Created by Yu Zheng on 9/21/2015 
  *
  * idea: if we want to implement a BST with a minimal height, we can set the middle element of the array
