@@ -8,6 +8,7 @@
  */
 
 public class Solution08 {
-
-
+	public static void drawLIne(byte[] screen, int width, int x1, int x2, int y) {
+		
+	}
 }

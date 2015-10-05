@@ -17,15 +17,17 @@ public class Solution02 {
 		}
 
 		StringBuffer result = new StringBuffer();
-		result.append("0.");
+		result.append(".");
 
 		while(num > 0) {
-			if(result.length() > 33) {
+			// set the limitation, length of number cannot
+			// excceed 32
+			if(result.length() >= 32) {
 				System.out.println("ERROR");
 				return;
 			}
 
-			double temp = num * 2;
+			double temp = num * 2; // num << 1
 			if(temp >= 1) {
 				result.append("1");
 				num = temp - 1;
