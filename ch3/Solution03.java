@@ -5,6 +5,10 @@ import java.util.Stack;
  * Question - Stack of Plates 
  * Created by Yu Zheng on 9/21/2015 
  *
+ * FOLLOW UP
+ * Implement a function popAt(int index) which performs a pop operation on a
+ * specific sub-stack.
+ *
  * idea: just use index to control which stack we use, a little similar to Q1
  *
  */
@@ -47,6 +51,20 @@ public class Solution03 {
 			else
 				return null;
 		} 
+
+		// FOLLOW UP question
+		public popAt(int index) {
+			/**
+			 * for this method. we have to consider the situation,
+			 * first, if we have to satisfy the plate have substack since the former stack is full.
+			 * In order to satisfy above requirement, once we pop a sub stack element, we have to do the rollover
+			 * step, which mean we have to get the bottom element of the next stack, put it on the top 
+			 * of previous stack, and repeat the action until the final stack. It would make the time cost large.
+			 * If we don't need to satisfy above requirement, that's OK, but we have to carefully handle the
+			 * situation that if the former stack is empty, but the current is not empty.
+			 */
+
+		}
 	}
 
 	public static void main(String [] args) {
