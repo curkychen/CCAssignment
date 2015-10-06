@@ -42,6 +42,31 @@ public class Solution05 {
 		}
 		return result.next;
 	}
+
+	// FOLLOW UP question, if the linknode is reverse
+	// first, I would reverse the linked, and then just put it on the addtwosum function
+	public static linkedNode addtreverse(linkedNode l1, linkedNode l2) {
+		linkedNode rl1 = reverserlink(l1);
+		linkedNode rl2 = reverserlink(l2);
+		return addtwosum(rl1, rl2);
+
+	}
+	public static linkedNode reverserlink(linkedNode l) {
+		linkedNode current = l.next;
+		linkedNode head = l;
+		linkedNode pre = l;
+		linkedNode next;
+		while(current != null) {
+			next = current.next;
+			current.next = pre;
+			pre = current;
+			current = next;
+		}
+		head.next = null;
+		head = pre;
+		return head;
+	}
+
 	
 	// test
 	public static void main(String[] args) {
