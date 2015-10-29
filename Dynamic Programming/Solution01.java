@@ -29,7 +29,8 @@ public class Solution {
 		}
 		return result[target];
 	}
-public static void main(String[] args) throws IOException{
+
+	public static void main(String[] args) throws IOException{
         Scanner in = new Scanner(System.in);
 		String[] split = in.nextLine().split(" ");
 		int[] A = new int[split.length];
