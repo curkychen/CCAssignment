@@ -21,6 +21,7 @@ public class Solution05 {
 			else
 				return false;
 		} // insert a character
+		
 		else if (s2.length() - s1.length() == 1) {
 			int diffcount = 0;
 			for (int i = 0; i < s2.length(); i++) {
